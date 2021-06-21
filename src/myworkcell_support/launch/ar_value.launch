@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+
+    <arg name="x"/>
+    <arg name="y"/>
+    <arg name="z"/>
+    
+    <param name="x_pos" value="$(arg x)"/>
+    <param name="y_pos" value="$(arg y)"/>
+    <param name="z_pos" value="$(arg z)"/>
+
+    <!-- <param name="/x_pos" value="0.6"/>
+    <param name="/y_pos" value="0.2"/>
+    <param name="/z_pos" value="0.7"/> -->
+    
+
+</launch>
